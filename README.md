@@ -26,16 +26,6 @@ mvn clean install
 
 4. **Run Tests:**
 
-- **Web Tests:**
-  ```
-  mvn test -DsuiteXmlFile=web-testng.xml
-  ```
-
-- **Mobile Tests:**
-  ```
-  mvn test -DsuiteXmlFile=mobile-testng.xml
-  ```
-
 - **Cucumber Tests:**
   ```
   mvn clean verify
